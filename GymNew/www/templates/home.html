@@ -1,0 +1,89 @@
+<ion-view view-title="Home">
+    <ion-content>
+        <ion-list>
+            <ion-item>
+                <div class="list card">
+                    <span class="card-header"><strong><center>EXERCISES OF THE DAY</span></strong></center>
+                    <p>
+                        <span class="header-sub">3 Sets : 10-15 Reps</span>
+                    </p>
+                </div>
+                <div class="item item-image">
+                    <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                        
+                            <uib-slide ng-repeat="exercise in exercises track by $index" index="$index">
+                                <a href="#/app/{{exercise.id}}" class="no-underline">
+                                    <img ng-src="{{baseURL+exercise.image}}" style="margin:auto;">
+                                    <h1 class="big-caption">{{exercise.name}}</h1>
+                                </a>
+                            </uib-slide>
+                        
+                    </uib-carousel>
+                </div>
+            </ion-item>
+            
+            <ion-item>
+                <div class="list card">
+                    <span class="card-header"><strong><center>ROUTINE OF THE DAY</strong></span></center>
+                    
+                    
+                    <p>
+                        <span class="header-sub">{{routine.name}}</span>
+                        
+                    </p>
+                    <div class="item item-body">
+                        <div class="routine-level"> 
+                            {{routine.level[0]}} 
+                            <span ng-if="routine.intensive">
+                                <i class="ion-ios-flame"></i>
+                            </span>
+                            <span ng-if="routine.toll">
+                                <i class="ion-heart"></i>
+                            </span>
+                            <span ng-if="routine.hydration">
+                                <i class="ion-waterdrop"></i>
+                            </span>
+                            <span ng-if="routine.dangerous">
+                                <i class="ion-alert"></i>
+                            </span>
+                        </div>
+                        <p>
+                            {{routine.description}} 
+                        </p>
+                    </div>
+                    <a class="item item-icon-left assertive" href="#">
+                        <i class="icon ion-android-stopwatch"></i>
+                        Start This Routine Now
+                    </a>
+
+                </div>
+                
+                
+            </ion-item>
+            <ion-item>
+                <div class="list card">
+                    <span class="card-header"><strong><center>DIET</span></strong></center>
+                    
+                </div>
+                <div class="item item-image">
+                    <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                        
+                            <uib-slide ng-repeat="item in diet track by $index" index="$index">
+                                <a href="#/app/{{item.id}}" class="no-underline">
+                                    <img ng-src="{{baseURL+item.image}}" style="margin:auto;">
+                                    <h1 class="big-caption">{{item.name}}</h1>
+                                </a>
+                                <p class="no-text-wrap">
+                                    {{item.description}}
+                                </p>
+                            </uib-slide>
+                        
+                    </uib-carousel>
+                </div>
+            </ion-item>
+            
+        </ion-list>
+        
+    </ion-content>
+    
+</ion-view>

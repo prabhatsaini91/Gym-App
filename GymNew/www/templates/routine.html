@@ -1,0 +1,40 @@
+<ion-view view-title="Routines">
+  <ion-content>
+      <ion-list ng-repeat="routine in routines">
+          
+            <ion-item class="item-text-wrap" href="#/app/routine/{{routine.id}}">
+                <div class="pull-left routine-level">
+                    
+                    <span ng-if="routine.intensive">
+                        <i class="ion-ios-flame"></i>
+                    </span>
+                    <span ng-if="routine.toll">
+                        <i class="ion-heart"></i>
+                    </span>
+                    <span ng-if="routine.hydration">
+                        <i class="ion-waterdrop"></i>
+                    </span>
+                    <span ng-if="routine.dangerous">
+                        <i class="ion-alert"></i>
+                    </span>
+                    {{routine.level[0]}}
+                </div>
+                <h2><center><strong>{{routine.name}}</strong></h2></center>
+                
+                
+                <p>
+                    {{routine.description}} 
+                    
+                    <p style="padding: 15px;">
+                        <span ng-repeat="exercise in routine.exercises">
+                            {{$index+1}}. {{exercise}}<br>
+                        </span>
+                    </p>
+                </p>
+                
+                
+            </ion-item>
+          
+      </ion-list>
+  </ion-content>
+</ion-view>

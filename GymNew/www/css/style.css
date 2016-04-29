@@ -1,0 +1,63 @@
+#slides_control > div{
+  height: 200px;
+}
+img{
+  margin:auto;
+  width: 400px;
+}
+#slides_control {
+  position:absolute;
+  width: 400px;
+  left:50%;
+  top:20px;
+    margin-left:-200px;
+}
+
+.exercise-list {
+    padding: 100px;
+}
+
+.carousel-image {
+    padding: 5px;
+}
+
+.big-caption {
+    font-size: 100%;
+}
+
+.carousel-indicators li {
+    visibility: hidden;
+}
+
+.card-header {
+    font-size: x-large;
+}
+
+.header-sub {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.routine-level {
+    color: red;
+}
+
+.ion-ios-flame {
+    color: red;
+}
+
+a.no-underline {
+    text-decoration: none;
+    color: black;
+}
+
+.routine-head {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+.routine-details {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}

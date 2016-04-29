@@ -1,0 +1,17 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/build/intermediates/assets/release/www/cordova_plugins.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/build/intermediates/assets/release/www/cordova.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/builders/builders.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/builders/GenericBuilder.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/builders/GradleBuilder.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/Adb.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/AndroidManifest.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/AndroidProject.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/android_sdk_version.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/build.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/check_reqs.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/builders/AntBuilder.js",
+        "C:/Users/Anonymous/Desktop/ionic/conFusion/platforms/android/cordova/lib/device.js"
+    ]
+}

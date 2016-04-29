@@ -1,0 +1,12 @@
+<ion-view view-title="Exercise List">
+    <ion-content>
+        <ion-list ng-repeat="exercise in exercises">
+            <ion-item href="#/app/{{exercise.id}}">
+                <h2><center>{{exercise.name}}</h1></center>
+                <img class="full-image" ng-src="{{baseURL+exercise.image}}">
+                <p>{{exercise.description}}</p>    
+            </ion-item>
+            
+        </ion-list>
+    </ion-content>
+</ion-view>
