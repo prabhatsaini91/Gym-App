@@ -1,0 +1,429 @@
+{
+  "exercises": [
+    {
+      "id": 0,
+      "name": "Flat Bench Press",
+      "image": "images/flat.jpg",
+      "category": "chest",
+      "description": "Work the middle of the pectoralis major in the chest, shoulders and triceps"
+    },
+    {
+      "id": 1,
+      "name": "Incline Dumbbell Press",
+      "image": "images/incline.jpg",
+      "category": "chest",
+      "description": "Work the upper section of the pectoralis major muscle in the chest and shoulders"
+    },
+    {
+      "id": 2,
+      "name": "Decline Dumbbell Press",
+      "image": "images/decline.jpeg",
+      "category": "chest",
+      "description": "Work the lower section of the chest"
+    },
+    {
+      "id": 3,
+      "name": "Dumbbell Press",
+      "image": "images/dumbbellpress.jpg",
+      "category": "chest",
+      "description": "Balanced exercise for chest"
+    },
+    {
+      "id": 4,
+      "name": "Butterfly",
+      "image": "images/btr.jpg",
+      "category": "chest",
+      "description": "Work the outer middle section of the chest "
+    },
+    {
+      "id": 5,
+      "name": "Shoulder Press",
+      "image": "images/Spress.jpg",
+      "category": "shoulder",
+      "description": "Work the front deltoids and the collar muscle in shoulder"
+    },
+    {
+      "id": 6,
+      "name": "Dumbbell Shoulder Press",
+      "image": "images/dpress.jpg",
+      "category": "shoulder",
+      "description": "Balanced exercise for front deltoid"
+    },
+    {
+      "id": 7,
+      "name": "Upright Row",
+      "image": "images/up.jpg",
+      "category": "shoulder",
+      "description": "Compound exercise that involves the trapezius, the deltoids and the biceps"
+    },
+    {
+      "id": 8,
+      "name": "Bent Over Rear Delt Raise",
+      "image": "images/bo.jpg",
+      "category": "shoulder",
+      "description": "Work the rear section of the deltoid in shoulder"
+    },
+    {
+      "id": 9,
+      "name": "Lateral Raise",
+      "image": "images/lat.jpg",
+      "category": "shoulder",
+      "description": "Work the side or outer section of the deltoid in shoulder"
+    },
+    {
+      "id": 10,
+      "name": "Barbell Curl",
+      "image": "images/barbell-curl.jpg",
+      "category": "bicep",
+      "description": "Work the inner portion of your biceps"
+    },
+    {
+      "id": 11,
+      "name": "Dumbbell Curl",
+      "image": "images/bicep curl.jpg",
+      "category": "bicep",
+      "description": "Balanced exercise for biceps"
+    },
+    {
+      "id": 12,
+      "name": "Hammer Curl",
+      "image": "images/hammer curl seated.jpg",
+      "category": "bicep",
+      "description": "Work the upper arm and the forearm"
+    },
+    {
+      "id": 13,
+      "name": "Preacher Curl",
+      "image": "images/preacher.jpg",
+      "category": "bicep",
+      "description": "Work the uppermost region of the biceps(peak)"
+    },
+    {
+      "id": 14,
+      "name": "Concentration Curl",
+      "image": "images/concentration-curl.jpg",
+      "category": "bicep",
+      "description": "Concentrating the workload on the lateral head of the biceps brachii"
+    },
+    {
+      "id": 15,
+      "name": "Single Arm",
+      "image": "images/singlearm.jpg",
+      "category": "tricep",
+      "description": "Work the triceps brachii,deltoids"
+    },
+    {
+      "id": 16,
+      "name": "Skull Crusher",
+      "image": "images/skullcrusher.jpg",
+      "category": "tricep",
+      "description": "It is single-joint triceps exercise,Work the triceps brachii "
+    },
+    {
+      "id": 17,
+      "name": "Double Arm",
+      "image": "images/Double-arm.jpg",
+      "category": "tricep",
+      "description": ""
+    },
+    {
+      "id": 18,
+      "name": "Pushdown Pulley",
+      "image": "images/pd.jpg",
+      "category": "tricep",
+      "description": "Work the long head of the tricep"
+    },
+    {
+      "id": 19,
+      "name": "Kick Back",
+      "image": "images/tricep-kickbacks.jpg",
+      "category": "tricep",
+      "description": "Balanced exercise for the triceps"
+    },
+    {
+      "id": 20,
+      "name": "Lat Pulldown",
+      "image": "images/Lat-Pull-Down.jpg",
+      "category": "back",
+      "description": "It is multi-joint exercise that involves movement at the elbows, shoulders and scapula, work the largest back muscle, which extends down each side of your spine"
+    },
+    {
+      "id": 21,
+      "name": "Seated Rowing",
+      "image": "images/seatedrow.jpg",
+      "category": "back",
+      "description": "It emphasize muscles around the back including the lats, the erector spinae, rear delts, biceps, and forearm flexors"
+    },
+    {
+      "id": 22,
+      "name": "One Arm Rowing",
+      "image": "images/one-arm-dumbbell-row.jpg",
+      "category": "back",
+      "description": "It emphasize the whole lat, the upper back, and the trap muscles."
+    },
+    {
+      "id": 23,
+      "name": "T-Bar",
+      "image": "images/t-bar-row.jpg",
+      "category": "back",
+      "description": "It emphasize the lower lat, the middle back."
+    },
+    {
+      "id": 24,
+      "name": "Hyper Extension",
+      "image": "images/hyperextension.jpg",
+      "category": "back",
+      "description": "Work the lower back"
+    },
+    {
+      "id": 25,
+      "name": "Squat",
+      "image": "images/squat.jpg",
+      "category": "legs",
+      "description": "Work the quadriceps, hamstrings, and calves"
+    },
+    {
+      "id": 26,
+      "name": "Leg Press",
+      "image": "images/leg-press.jpg",
+      "category": "legs",
+      "description": "It emphasize the whole quadriceps, and the hamstrings muscles"
+    },
+    {
+      "id": 27,
+      "name": "Leg Extension",
+      "image": "images/leg-extension.jpg",
+      "category": "legs",
+      "description": "Work the front section of legs the patellar ligament and quadriceps "
+    },
+    {
+      "id": 28,
+      "name": "Leg Curl",
+      "image": "images/legcurl.jpg",
+      "category": "legs",
+      "description": "Work the hamstring"
+    },
+    {
+      "id": 29,
+      "name": "Lunges",
+      "image": "images/lunges.jpg",
+      "category": "legs",
+      "description": "Balanced exercise,work the hamstrings and the hip muscle "
+    },
+    {
+      "id": 30,
+      "name": "Hanging Leg Raises",
+      "image": "images/Jackman-Workout4.jpg",
+      "category": "core",
+      "description": "work the upper abdominal mostly"
+    },
+    {
+      "id": 31,
+      "name": "Decline Leg Raises",
+      "image": "images/Abs-Leg-Up-Decline-Bench1.jpg",
+      "category": "core",
+      "description": "work the lower abdominal"
+    },
+    {
+      "id": 32,
+      "name": "Situps",
+      "image": "images/160.jpg",
+      "category": "core",
+      "description": "strengthen the legs and the core "
+    },
+    {
+      "id": 33,
+      "name": "Plank",
+      "image": "images/plank2.jpg",
+      "category": "core",
+      "description": "work the abdominal and the lower back"
+    },
+    {
+      "id": 34,
+      "name": "Mountain Climbing",
+      "image": "images/Mountain-Climbing-Exercise.jpg",
+      "category": "core",
+      "description": "work the lower abdominal and the sides"
+    }
+  ],
+  "routines": [
+    {
+      "id": 35,
+      "name": "Low Intensity Short Intervals",
+      "level": "Amateur",
+      "intensive": true,
+      "toll": false,
+      "dangerous": false,
+      "hydration": true,
+      "description": "This routine with short intervals mainly caters to an amateur person. Low intensity workouts are necessary to warmup muscles. This prevents muscle tear and helps in stretching muscles to their peak. Even professionals, perform low intensity workouts and never undermine their importance.",
+      "totaltime": "14 Minutes",
+      "intervaltime": "20 Seconds",
+      "resttime": "10 Seconds",
+      "break": "30 Seconds",
+      "repititions": 4,
+      "exercises": [
+        "Wide Arm Pushups",
+        "Back Extensions",
+        "Squats",
+        "Jumping Jacks",
+        "Situps",
+        "Plank"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Low Intensity Medium Intervals",
+      "level": "Semi-Professional",
+      "intensive": true,
+      "toll": false,
+      "dangerous": false,
+      "hydration": true,
+      "break": "30 Seconds",
+      "description": "This routine with medium intervals caters to an intermediate person. Low intensity workouts with medium intervals begin to increase your heart rate and decrease arterial oxygen. Intervals are timed at a longer duration than the usual short intervals so muscle tear is more. Professionals perform low intensity medium interval routine to cool-down after a heavy workout.",
+      "totaltime": "22 Minutes",
+      "intervaltime": "35 Seconds",
+      "resttime": "15 Seconds",
+      "repititions": 4,
+      "exercises": [
+        "Burpees",
+        "Half Crunches",
+        "Mountain Climbers",
+        "High Knee Ups",
+        "Lunges",
+        "Running Plank"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "High Intensity Short Intervals",
+      "level": "Professional",
+      "intensive": true,
+      "toll": true,
+      "dangerous": false,
+      "hydration": true,
+      "break": "30 Seconds",
+      "description": "This routine with short intervals and highly intensive exercises are only for professionals. This tests not only your arterial oxygen limit, but also muscle fitness, cardiovascular health and endurance. Intervals are short, but the intensity level of exercise makes it difficult to perform this routine.",
+      "totaltime": "10 Minutes",
+      "intervaltime": "20 Seconds",
+      "resttime": "10 Seconds",
+      "repititions": 4,
+      "exercises": [
+        "Close Arm Pushups",
+        "Burpees",
+        "Jump Squats",
+        "Dips",
+        "Mountain Climbers",
+        "One Armed Plank"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "High Intensity Interval Training",
+      "level": "Extreme",
+      "intensive": true,
+      "toll": true,
+      "dangerous": true,
+      "hydration": true,
+      "break": "30 Seconds",
+      "description": "HIIT. Make your muscles scream, burn fat hand over fist, increase your arterial oxygen limit and push your maximum heart rate. HIIT pumps your metabolism to amazing limits. Burn fats for 20 hours by performing this workout. HIIT workout is the choice of professionals. Don't feel like picking up weights and doing long cardios? HIIT is the thing for you. Make sure to hydrate yourself before and after workouts. ",
+      "totaltime": "22 Minutes",
+      "intervaltime": "35 seconds",
+      "resttime": "Active Rest 15 Seconds",
+      "repititions": 4,
+      "exercises": [
+        "Power Pushups",
+        "Jump Squats",
+        "Pullups",
+        "Speed Burpees",
+        "Full Crunches",
+        "Dips"
+      ]
+    }
+  ],
+  "diet": [
+    {
+      "id": 39,
+      "name": "Eggs",
+      "description": "You can eat them whole with confidence, as most of the popular cholesterol concerns regarding eggs are overblown. Most importantly, you’ll get six to seven grams of protein in every large egg. Another reason to eat the yolk: It contains nine essential amino acids.",
+      "image": "images/eggs.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Almonds",
+      "description": "A small handful always satisfies my hunger. Also, studies have shown that eating 1.5 ounces of most nuts can reduce LDL (bad) cholesterol and lower your risk of heart disease.",
+      "image": "images/almonds.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Greek Yogurt",
+      "description": "Nonfat Greek yogurt is relatively low in calories, and those calories go a long way: You get 15–20 grams of protein per six ounces with no fat at all. A great way to sweeten it up— and add even more protein—is to mix in a scoop of whey protein powder so it tastes just like pudding.",
+      "image": "images/yogurt.jpg"
+    },
+    {
+      "id": 42,
+      "name": "Oatmeal",
+      "description": "This is the ultimate bodybuilding carb, a delicious, slow digesting breakfast that’ll give you a ton of energy for a tough training session. You can’t go wrong with either steel-cut or rolled oats. Try mixing dry rolled oats with cinnamon for a surprisingly tasty snack.",
+      "image": "images/oatmeal.jpg"
+    },
+    {
+      "id": 43,
+      "name": "Multi-Vitamin",
+      "description": "As insurance policies go, it doesn’t get easier or cheaper than taking a multi-vitamin. You might eat a perfectly balanced diet, but the only way to be certain you’re not missing any key nutrients is to take one of these.",
+      "image": "images/multivitamin.jpg"
+    },
+    {
+      "id": 44,
+      "name": "Fish Oil",
+      "description": "Fish oil has been shown to improve virtually every aspect of cardiac health from blood pressure to risk of heart failure. Its anti-inflammatory properties make it key for joint health.",
+      "image": "images/fishoil.jpg"
+    },
+    {
+      "id": 45,
+      "name": "Cucumber",
+      "description": "I consider cucumber a “free” food, meaning it’s pretty much impossible to eat too much of it. Cucumber has a high water content, and goes with anything, making it an ideal stomach filler. But it’s also loaded with antioxidants, and helps clear chemical toxins from the body.",
+      "image": "images/cucumber.jpg"
+    },
+    {
+      "id": 46,
+      "name": "Asparagus",
+      "description": "A great source of several B vitamins, asparagus includes a type of soluble fiber that works as a prebiotic, which stimulates the growth of healthy stomach bacteria.",
+      "image": "images/asparagus.jpg"
+    },
+    {
+      "id": 47,
+      "name": "Garlic",
+      "description": "Garlic is a potent antioxidant shown to help prevent heart attack and stroke. Use garlic or lemon pepper to spice anything up. Canadian researchers showed that lemon pepper contains antioxidants, too. This or any other no-carb seasoning can make fish and chicken a lot more interesting.",
+      "image": "images/garlic.jpg"
+    },
+    {
+      "id": 48,
+      "name": "Chicken Breast",
+      "description": "It's the most widely consumed bodybuilding staple—high in protein, very low in fat, with a million ways to prepare it. But chicken breast also increases carnosine concentration, which improves exercise performance.",
+      "image": "images/rcb.jpg"
+    },
+    {
+      "id": 49,
+      "name": "Banana",
+      "description": "As far as I’m concerned, this is the best recovery food you can eat post-workout. Not to mention, each large banana contains over 400 milligrams of potassium and 4 grams of fiber.",
+      "image": "images/banana.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Fish",
+      "description": "Tilapia, cod, and salmon are all great choices for a low-fat, high-protein whole food, though I personally prefer tilapia because it’s so hard to screw up. Hit it with the lemon pepper and stick it in the oven at 375° for 30 minutes. Done.",
+      "image": "images/fish.jpg"
+    },
+    {
+      "id": 51,
+      "name": "Broccoli",
+      "description": "Another “free” food loaded with fiber, broccoli contains a compound called sulforaphane, which blocks enzymes that cause joint decay.",
+      "image": "images/broccoli.jpg"
+    },
+    {
+      "id": 52,
+      "name": "Lean Beef",
+      "description": "If you keep it lean, there’s no reason to be scared of red meat. It’s one of the best sources of iron and zinc, plus the saturated fat acts as a precursor to testosterone production.",
+      "image": "images/beef.jpg"
+    }
+  ]
+}
